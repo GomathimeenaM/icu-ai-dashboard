@@ -12,6 +12,7 @@ import pandas as pd
 import numpy as np
 import json
 import base64
+import cv2
 import plotly.graph_objects as go
 from pathlib import Path
 import datetime
