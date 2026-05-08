@@ -262,24 +262,18 @@ if 'active_modality_tab' not in st.session_state:
 # ══════════════════════════════════════════════════
 @st.cache_data(show_spinner=False)
 def get_hero_img():
-    import glob
-    candidates = (
-        glob.glob(str(IMG_DIR / 'DashboardFunction' / '*.jpg')) +
-        glob.glob(str(IMG_DIR / 'DashboardFunction' / '*.png')) +
-        glob.glob(str(IMG_DIR / '*.jpg')) +
-        glob.glob(str(IMG_DIR / '*.png'))
-    )
-    for p in candidates:
+    from PIL import Image as PILImg
+    import io
+    img_path = Path('ICUAIAssistant.jpg')
+    if img_path.exists():
         try:
-            from PIL import Image as PILImg, ImageFile
-            ImageFile.LOAD_TRUNCATED_IMAGES = True
-            import io
-            img = PILImg.open(p); img.load()
-            buf = io.BytesIO(); img.save(buf, format='JPEG', quality=85)
+            img = PILImg.open(img_path)
+            buf = io.BytesIO()
+            img.save(buf, format='JPEG', quality=85)
             return base64.b64encode(buf.getvalue()).decode()
-        except Exception: continue
+        except Exception:
+            pass
     return None
-
 # ══════════════════════════════════════════════════
 # DATA LOADING
 # ══════════════════════════════════════════════════
