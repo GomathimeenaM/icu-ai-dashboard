@@ -1,0 +1,30 @@
+{
+  "n_stays_total": 94458,
+  "n_stays_with_cxr": 19316,
+  "cxr_coverage_pct": 20.449300218086343,
+  "n_feat_cols": 1024,
+  "n_prob_cols": 18,
+  "pathology_names": [
+    "Atelectasis",
+    "Consolidation",
+    "Infiltration",
+    "Pneumothorax",
+    "Edema",
+    "Emphysema",
+    "Fibrosis",
+    "Effusion",
+    "Pneumonia",
+    "Pleural Thickening",
+    "Cardiomegaly",
+    "Nodule",
+    "Mass",
+    "Hernia",
+    "Lung Lesion",
+    "Fracture",
+    "Lung Opacity",
+    "Enlarged Cardiomediastinum"
+  ],
+  "scores_min": 0.5000005960464478,
+  "scores_max": 0.7307525873184204,
+  "scores_mean": 0.6235588788986206
+}

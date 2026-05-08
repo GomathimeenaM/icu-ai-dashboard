@@ -1,0 +1,11 @@
+streamlit>=1.32.0
+pandas
+numpy
+plotly
+torch
+torchxrayvision
+Pillow
+pyarrow
+scikit-learn
+xgboost
+shap

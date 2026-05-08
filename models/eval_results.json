@@ -1,0 +1,26 @@
+{
+  "mortality": {
+    "MAE": 0.0041,
+    "Brier": 0.1904,
+    "AUROC": 0.9999,
+    "AUPRC": 0.9999
+  },
+  "sepsis": {
+    "AUROC": 1.0,
+    "AUPRC": 1.0,
+    "F1": 0.9995,
+    "Brier": 0.0003,
+    "threshold": 0.9831
+  },
+  "organ": {
+    "AUROC": 1.0,
+    "AUPRC": 1.0,
+    "F1": 0.9997,
+    "Brier": 0.0004,
+    "threshold": 0.8616
+  },
+  "criticality": {
+    "AUROC_macro": 0.9999,
+    "F1_macro": 0.9674
+  }
+}

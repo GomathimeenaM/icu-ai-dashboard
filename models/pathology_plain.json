@@ -1,0 +1,12 @@
+{
+  "Consolidation": "Lung fluid/pus (pneumonia)",
+  "Pleural_Effusion": "Fluid around the lung",
+  "Atelectasis": "Collapsed lung area",
+  "Pneumothorax": "Air leak collapsing the lung",
+  "Cardiomegaly": "Enlarged heart shadow",
+  "Edema": "Lung fluid (heart failure)",
+  "Lung_Opacity": "Haziness \u2014 infection or fluid",
+  "Fracture": "Rib or bone fracture",
+  "Support_Devices": "Tubes, lines, or devices",
+  "No_Finding": "No obvious abnormality"
+}

@@ -1,0 +1,42 @@
+{
+  "mortality": {
+    "n_estimators": 968,
+    "max_depth": 6,
+    "learning_rate": 0.04847546988261475,
+    "subsample": 0.7504368566937385,
+    "colsample_bytree": 0.886122304361458,
+    "min_child_weight": 11,
+    "reg_alpha": 0.0020072683917645197,
+    "reg_lambda": 0.003940250657216068
+  },
+  "sepsis": {
+    "n_estimators": 205,
+    "max_depth": 8,
+    "learning_rate": 0.09033775094656361,
+    "subsample": 0.8645035840204937,
+    "colsample_bytree": 0.8627622080115674,
+    "min_child_weight": 2,
+    "reg_alpha": 0.006199100007802264,
+    "reg_lambda": 0.00037961668958008145
+  },
+  "organ": {
+    "n_estimators": 205,
+    "max_depth": 8,
+    "learning_rate": 0.09033775094656361,
+    "subsample": 0.8645035840204937,
+    "colsample_bytree": 0.8627622080115674,
+    "min_child_weight": 2,
+    "reg_alpha": 0.006199100007802264,
+    "reg_lambda": 0.00037961668958008145
+  },
+  "criticality": {
+    "n_estimators": 702,
+    "max_depth": 8,
+    "learning_rate": 0.025244278695863515,
+    "subsample": 0.8390275066875272,
+    "colsample_bytree": 0.7855398253007982,
+    "min_child_weight": 1,
+    "reg_alpha": 0.0002128747211271876,
+    "reg_lambda": 4.319820647377494
+  }
+}

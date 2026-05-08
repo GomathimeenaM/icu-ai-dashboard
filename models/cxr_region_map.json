@@ -1,0 +1,38 @@
+{
+  "0,0": [
+    "Upper left lung",
+    "Left upper lobe"
+  ],
+  "0,1": [
+    "Upper central",
+    "Trachea/mediastinum"
+  ],
+  "0,2": [
+    "Upper right lung",
+    "Right upper lobe"
+  ],
+  "1,0": [
+    "Left mid lung",
+    "Left hilum"
+  ],
+  "1,1": [
+    "Heart/mediastinum",
+    "Cardiac silhouette"
+  ],
+  "1,2": [
+    "Right mid lung",
+    "Right hilum"
+  ],
+  "2,0": [
+    "Left base",
+    "Left lower lobe"
+  ],
+  "2,1": [
+    "Lower central",
+    "Diaphragm"
+  ],
+  "2,2": [
+    "Right base",
+    "Right lower lobe"
+  ]
+}
