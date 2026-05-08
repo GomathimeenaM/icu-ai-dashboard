@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1fJNCj33GxWtdbEu9S54nct9eGn7DQc-E
 """
 
-"""
-ICU AI Assistant Dashboard — Light Blue Clinical Theme
-8-tab clinical decision support interface
-Run: streamlit run ICUDashboard_LightBlue.py
-"""
 import streamlit as st
 import pandas as pd
 import numpy as np
